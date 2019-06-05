@@ -1,0 +1,3 @@
+F:\flex_sdk_4.6\bin\compc.exe -optimize -strict -include-sources FlashInteractionDemo_20120624_Assets.as -output FlashInteractionDemo_20120624_Assets.swc
+F:\flex_sdk_4.6\bin\mxmlc.exe -optimize -strict -static-link-runtime-shared-libraries=true -debug=false FlashInteractionDemo_20120624_Loader.as -output FlashInteractionDemo_20120624_Loader.swf
+F:\flex_sdk_4.6\bin\mxmlc.exe -optimize -strict -default-script-limits 2000 120 -static-link-runtime-shared-libraries=true -include-libraries=FlashInteractionDemo_20120624.swc,FlashInteractionDemo_20120624_Runtime.swc,FlashInteractionDemo_20120624_Bridge.swc,FlashInteractionDemo_20120624_Assets.swc,FlashInteractionDemo_20120624_Vorbis.swc -debug=false FlashInteractionDemo_20120624.as -output FlashInteractionDemo_20120624.swf
